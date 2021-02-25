@@ -1,0 +1,50 @@
+#secondary-hero.careers-hero{
+    .hero-header{
+        font-size: 2.5rem;
+    }
+}
+
+
+#job-listings{
+    background: #f5f5f5;
+
+    .col-md-3{
+        .nav-pills{
+            .nav-link{
+                color: black;
+            }
+
+            .nav-link.active{
+                color: white;
+                background-color: #147bd1;
+            }
+        }
+    }
+
+    .col-md-9{
+        background: white;
+        padding: 30px 15px;
+        border-radius: 10px;
+
+        .job-card{
+            border-radius: 5px;
+            box-shadow: 2px 5px 15px rgba(0,0,0,0.2);
+            padding: 30px;
+            display: block;
+            margin: auto;
+            width: 90%;
+        
+            .job-title{
+                font-weight: 600;
+                margin-bottom: 15px;
+            }
+        
+            .job-location{
+                color: #48b985;
+            }
+        }
+    }
+
+    
+}
+
